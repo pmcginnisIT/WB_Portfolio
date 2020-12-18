@@ -10,7 +10,7 @@ body{
     position: fixed;
     top: 0;
     left: 0; 
-    height: 125px;
+    height: 100px;
     width: 100vw; 
     z-index: 1; 
   }
@@ -203,8 +203,8 @@ a:link {
 
 #form {
   position:relative;
-  height: 750px;
-  width: 750px;
+  height: 500px;
+  width: 500px;
   background-color: #AE674A;
   margin-left: auto;
   margin-right: auto;
