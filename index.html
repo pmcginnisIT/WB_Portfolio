@@ -10,13 +10,12 @@
 <link rel="stylesheet" href="index.css" />
 
 </head>
-
 <body>
     <nav class="navbar">
         <ul>
         <li> <a href="#contact" class="nav-link">Contact</a></li>
        <li> <a href="#projects" class="nav-link">Projects</a></li> 
-        <li> <a href="#about" class="nav-link">About</a></li>   
+        <li> <a href="#me" class="nav-link">About</a></li>   
         
 
         </ul>
@@ -27,14 +26,19 @@
         <h1 class="display-4">Manager of Technology</h1>
       </header>
       
-
-      <div class="row" > 
-          <div class="col-9" id="about"><h1 class="display-4"><b>About Me</b></h1></div>
-          <div class="col-5"><p id="main">Welcome! My name is Pauline McGinnis, and I am the Manager of Technology at a public charter school in Indianapolis. I've managed to use these past few weeks to develope a broader understanding of CSS, HTML, and JS which I plan to take back with me into my current role as our Manager of Technology to provide some support to our current website manager on the side. When I'm not working on programming, I'm providing IT support to our staff and students as I flex my skills managing our districts 1,500+ Chromebook and Windows devices. I'm our schools very on Fix-It Felix. </p> </div>
-          <div class="col-5"><img src="IMG_2977.JPG" id="profile-pic"></div>
+            
+      <div class="row" id="me"> 
+        <div class="spacer"></div>
+        <div class="col-1"></div>
+        <div class="col-1"><h1 class="display-1" style="text-align: left" id="about"><b>About Me</b></h1></div>
+          <div class="col-1"></div>
+          <div class="col-5"><p id="main" style="text-align: left">Welcome! My name is Pauline McGinnis, and I am the Manager of Technology at a public charter school in Indianapolis. I've managed to use these past few weeks to develope a broader understanding of CSS, HTML, and JS which I plan to take back with me into my current role as our Manager of Technology to provide some support to our current website manager on the side. When I'm not working on programming, I'm providing IT support to our staff and students as I flex my skills managing our districts 1,500+ Chromebook and Windows devices. I'm our schools very on Fix-It Felix. </p> </div>
+          
+          <div class="col-1"><img src="IMG_2977.JPG" id="profile-pic"></div>
         </div>
      
- <br>
+        <div class="spacer"></div>
+        
   <ul class="flex-container">
         <li class="flex-item"><img src="IMG_4020.JPG" alt="" id="screens"></li>
         <li class="flex-item"><img src="IMG_4078.JPG" alt="" id="screens"></li>
@@ -45,9 +49,9 @@
 
 <hr size="10">
 
-<br>
+<div class="spacer" id="projects" ></div>
 
-<h1 class="display-1" id="projects"><center> Projects I've Created</center></h1>
+<h1 class="display-1" ><center> Projects I've Created</center></h1>
 <br>
 <div class="container">
   <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
@@ -84,11 +88,11 @@
       </div>
 </div>
 
-
+<div class="spacer"></div>
 <hr size="10">
 
  <div id="contact">
-  <h2>Contact:</h2>
+  <h1 class="display-5">Contact: </h1>
   <h4>How can I help your team?</h4>
   
   <form action="https://formspree.io/f/xbjpzbbz"
@@ -117,7 +121,8 @@
 </footer>
 
 
-
+</div>
+</div>
 
 </body>
 </html>

@@ -64,14 +64,17 @@ body{
   
 .main {
   position:relative;
-    text-align: center;
+  margin-left: 50%;
   }
+ 
   
   #about {
     position:relative;
-    margin-top: 50px; 
-    margin-left: 50px;
-    display: inline-block;
+  }
+
+  #about {
+    position:relative;
+       display: inline-block;
   }
  
   #profile-pic {
@@ -86,9 +89,9 @@ body{
   #main {
     position:relative;
     color: black;
-     text-transform: none;
-    text-align: left;
-    margin: 50px;
+    text-transform: none;
+    text-align: right;
+    margin-right: 20px;
     font-weight: bolder;
     font-size: 20pt;
   }
@@ -141,6 +144,13 @@ a:link {
     display: block;
   }
     
+  div.spacer
+{
+    font-size: 0; 
+    height: 100px;
+    line-height: 0;
+}
+
     input {
       position:relative;
       font: 18px Helvetica, Arial, sans-serif;
@@ -240,4 +250,6 @@ h4, h2 {
   object-fit: auto;
   border-radius: 1em; 
 }
+
+
 
