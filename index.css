@@ -1,9 +1,11 @@
 body{
+  position:relative;
     background-color: whitesmoke;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
   
   nav {
+    position:relative;
     background-color: #AE674A; 
     position: fixed;
     top: 0;
@@ -14,6 +16,7 @@ body{
   }
   
   nav ul li {
+    position:relative;
     float: right; 
     margin-right: 100px; 
     list-style-type: none; 
@@ -42,6 +45,7 @@ body{
   
   #brand .nav-link:hover {
     color: purple; 
+    
   }
   
   #home {
@@ -53,26 +57,25 @@ body{
     padding-top: 150px;
     background: url('IMG_4096.JPG') center 90% no-repeat fixed; 
     background-size: cover; 
-    
-    text-align: center;
+        text-align: center;
     color: White;
     text-shadow: 2px 2px 2px black; 
   }
   
 .main {
+  position:relative;
     text-align: center;
   }
   
   #about {
+    position:relative;
     margin-top: 50px; 
+    margin-left: 50px;
     display: inline-block;
   }
-  #about-picture{
-    width: auto;
-    height: auto; 
-    float: right; 
-  }
+ 
   #profile-pic {
+    position:relative;
     height: 450px; 
     width: 400px;
     object-fit: auto;
@@ -81,15 +84,17 @@ body{
   }
 
   #main {
+    position:relative;
     color: black;
      text-transform: none;
     text-align: left;
-    margin: 15px;
+    margin: 50px;
     font-weight: bolder;
     font-size: 20pt;
   }
 
   .flex-container {
+    position:relative;
     display: flex;
     flex-wrap:nowrap;
     flex-direction: row;
@@ -100,12 +105,19 @@ body{
   }
 
   .flex-item {
+    position:relative;
     flex: 0 0 auto;
-margin: 25px;
+  margin: 25px;
 
 }
 
+hr{
+  background-color: #5B3446;
+  border: none;
+}
+
 #screens {
+  position:relative;
 max-height: 275px;
 min-width: 200px;
 object-fit: contain;
@@ -124,11 +136,13 @@ a:link {
 }
 
   label {
+    position:relative;
     position: relative;
     display: block;
   }
     
     input {
+      position:relative;
       font: 18px Helvetica, Arial, sans-serif;
       box-sizing: border-box;
       display: block;
@@ -136,13 +150,15 @@ a:link {
       padding: 20px;
       width: 300px;
       margin-bottom: 20px;
-      font-size: 18px;           
+      font-size: 18px;   
+      text-align: center;   
            }
   
     
     span {
+      position:relative;
       color: #35dc9b;
-      font: 13px Helvetica, Arial, sans-serif;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       position: absolute;
       top: 0px;
       left: 20px;
@@ -152,30 +168,33 @@ a:link {
   
   
   input[type="submit"] {
+    position:relative;
     transition: all 0.2s ease-in-out;
-    font: 18px Helvetica, Arial, sans-serif;
-        background: #453245;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #453245;
     color: #fff;
     padding: 16px 40px;
      
   }
 
   #contact {
+    position:relative;
     width: 95%;
-    height: 30vw;
+    height: 40vw;
     margin: auto;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     align-content: center;
-    padding: 75px;
+    padding: 100px;
     display: block;
 }
 
 
 
 #form {
-  height: 300px;
-  width: 400px;
+  position:relative;
+  height: 450px;
+  width: 450px;
   background-color: #AE674A;
   margin-left: auto;
   margin-right: auto;
@@ -189,20 +208,36 @@ h4, h2 {
 }
 
 #footer {
+  position:relative;
   width: 100%;
-  height: 10vw;
+  height: 12vw;
   background-color: #AE674A;
   color: black;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 15px;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+
+#inner {
+  position:relative;
+  width: 100%;
+  height: 5vw;
+  background-color: #AE674A;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
   text-align: center;
   padding: 5px;
 }
 
 
-
 #smicon {
+  position:relative;
   height: 100px; 
   width: 100px;
   object-fit: auto;
   border-radius: 1em; 
+}
+
